@@ -1,4 +1,7 @@
 import _ from "lodash";
+import Tiger from "./utilities";
+
+console.log(Tiger.say());
 
 function compornent() {
   const element = document.createElement("div");
