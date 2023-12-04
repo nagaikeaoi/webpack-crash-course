@@ -1,7 +1,5 @@
 import _ from "lodash";
-import Tiger from "./utilities";
-
-console.log(Tiger.say());
+import "./style.css";
 
 function compornent() {
   const element = document.createElement("div");
@@ -11,3 +9,4 @@ function compornent() {
 }
 
 document.body.appendChild(compornent());
+document.body.classList.add("background");
